@@ -1,9 +1,9 @@
 {
-  "name": "CHANGEME",
+  "name": "expertsender",
   "vendor": "vtex",
   "version": "0.0.1",
-  "title": "CHANGEME",
-  "description": "CHANGEME",
+  "title": "ExpertSender",
+  "description": "",
   "billingOptions": {
     "termsURL": "",
     "support": {
@@ -12,20 +12,26 @@
     "free": true
   },
   "builders": {
-    "react": "3.x",
-    "store": "0.x",
-    "pixel": "0.x"
+    "pixel": "0.x",
+    "docs": "0.x"
   },
   "dependencies": {
     "vtex.pixel-interfaces": "1.x"
   },
   "settingsSchema": {
-    "title": "APP NAME",
+    "title": "ExpertSender",
     "type": "object",
     "properties": {
-      "gtmId": {
-        "title": "SAMPLE FIELD",
-        "description": "Enter the ID (GTM-XXXX) from your Google Tag Manager",
+      "clickDomain": {
+        "title": "Click Domain",
+        "type": "string"
+      },
+      "aid": {
+        "title": "aid",
+        "type": "string"
+      },
+      "wid": {
+        "title": "wid",
         "type": "string"
       }
     }
