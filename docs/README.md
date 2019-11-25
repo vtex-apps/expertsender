@@ -23,7 +23,7 @@ Add the following snippet in the file and replace `"YOUR-AID"`, `"YOUR-WID"`, an
 ```js
 // ExpertSender
 (function () {
-  var adraker = {
+  window.adraker = {
     aid: "YOUR-AID",
     wid: "YOUR-WID",
     clickDomain: "YOUR-CLICKDOMAIN"
